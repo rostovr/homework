@@ -26,13 +26,11 @@ html {
 
 body {
     background: url(../img/background-body.jpg) repeat-y center top;
-}
-.wraper{
     max-width: 1200px; 
     margin: 0 auto;  
     position: relative;
-    display: table;
- }
+}
+
 .center {
     width: 80%;
     margin: 0 auto;
