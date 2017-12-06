@@ -1,0 +1,241 @@
+@font-face{
+font-family: 'High Tower Text';
+src: local('High Tower Text'),
+url('../font/HighTowerTextRegular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'High Tower Text';
+src: local('High Tower Text'),
+url('../font/HighTowerTextBold.ttf');
+font-style: normal;
+font-weight: bold;
+}
+
+/* сброс дефолта браузера. и задание глобальных собственных дефолтов. */
+/* */
+
+html {
+    margin: 0; 
+    padding: 0;
+    font-family: 'High Tower Text', sans-serif;
+    font-size: 14px;
+    color: #303030;  
+}
+
+body {
+    background: url(../img/background-body.jpg) repeat-y center top;
+    max-width: 1200px; 
+    margin: 0 auto;  
+    position: relative;
+}
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+}
+
+/* Header Section */
+header {
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.65);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+header a {
+    /*font: 14px/14px "High Tower Text";*/
+    color: #303030; 
+
+}
+header img {
+    float: left;
+    margin: 1px 0 4px;
+}
+
+header .header_right {
+    float: right;
+}
+
+header .header_right a {
+    text-decoration: none;
+    color: #303030;
+}
+header .header_right a:hover {
+    text-decoration: underline;
+}
+header .login {
+    float: right;
+    margin-top: 13px;
+}
+
+header nav {
+    float: right;
+    clear: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav li {
+    margin: 0 12px;
+    padding: 0;
+    float: left;
+}
+header nav li:last-child {
+    margin-right: 0px;
+    bottom: 50px;
+}
+
+section.one{
+    margin: 0 auto 50px ;
+    position: relative;
+}
+
+/* MAIN */
+
+a {text-decoration: none;}
+section.main{
+   /* width: 80%; */
+    height: 271px;
+    margin: 0 auto 50px  ;
+    padding: 35px;
+    top: 50px;
+    background-color:rgba(255, 255, 255, 0.65);
+    box-sizing: border-box;
+    box-shadow: 7px 7px 40px rgba(0,0,0,0.3);
+
+}
+/* Featurette */
+section.featurette{
+    /*width: 80%; */
+    height: 530px;
+    margin: 0 auto 50px  ;
+}
+
+/* Colection */
+
+section.collection{
+    /* width: 80%; */
+    height: 400px;
+    margin: 0 auto 50px  ;
+    background-color:rgba(255, 255, 255, 0.65);
+    box-shadow: 7px 7px 40px rgba(0,0,0,0.3);
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* inside Main */
+aside.main_body_mod {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+aside.main_body_mod  div p a{ ;font-size: 36px; }
+.sign_up{background-color: #e9e8e8; width: 242px; height: 162px; margin: auto}
+.sign_up input{
+    height: 30px; 
+    width: 210px; 
+    padding: 0px;
+    text-shadow: 0px 1px 0px #555;
+    border: 0px solid #717171;
+}
+section.main a{text-decoration: none; color: #4b4b4b;font-weight: normal; } /* Шрифт MAIN */
+
+/* inside Featurette */
+article.featurette{
+    height:530px; 
+    width:470px;
+    float: left;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.65);
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 7px 7px 40px rgba(0,0,0,0.3);
+}
+section.featurette a{text-decoration: none; color: white;  } /* Шрифт Featurette */
+#featurette_right{float: right;} /* Правую секцию флоат вправо */
+.crest {float: right;} /* изображение с квадратной печатью флоат вправо */
+.price {float: left; margin-top: 20px;} /* секцию с ценой флоат влевоо */
+.feature_top{
+    background-color:#2d2d2d;
+    width: 430px;
+    color: white;
+    padding: 19px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+.feature_bottom{
+    background-color:#2d2d2d;
+    width: 430px;
+    color: white;
+    padding: 19px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 20px;
+}
+.feature_top h2{margin: 0}
+.feature_bottom p{margin: 0}
+
+
+/* inside Collection */
+aside.collection {width: 33%; display: inline-block; text-align: center;}
+#collection {width: 100%; display: inline-block; text-align: center;}
+#collection h1{color: #4b4b4b; font-weight: normal; font-size: 4.3em; margin-top: auto; margin-bottom: auto;}
+
+/* Footer */
+
+footer {
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 208px;
+}
+
+.div_footer_left{
+    width: 208px; 
+    float: left;
+    height: 210px;
+
+}
+
+footer a{ color: white;} /*  Шрифт footer */
+/*footer p{ text-decoration: none; color: white;}   Шрифт footer */
+.div_footer_left{
+    width: 210px; 
+    float: left;
+    height: 210px;
+    overflow: hidden;
+}
+.div_footer_center{
+    width: 210px; 
+    margin-left: 150px;
+    height: 210px;
+    float:left;
+}
+.div_footer_right{    
+    width: 210px;
+    float: right;
+}
+.Underscoring {
+    width: 210px;
+    margin: 14px 0;
+    border-bottom: 2px solid white;
+}
+.footer_right > a{  
+    display: inline-block;
+    width: 30%
+} 
