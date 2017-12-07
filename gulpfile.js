@@ -46,4 +46,4 @@ gulp.task('less', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('default', ['serve']);
+gulp.task('auto', ['serve']);
